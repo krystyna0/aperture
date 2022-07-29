@@ -49,11 +49,11 @@ header ul li a{
 }
 
 header ul li{
- margin-right: 32px;
+ margin-right: 42px;
 }
 
 header ul li:nth-child(4){
-    margin-right: 31px;
+    margin-right: 41px;
 }
 
 header ul li:last-of-type{
@@ -114,5 +114,5 @@ header ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    color: #C0C0C0;
+    color: salmon;
 }

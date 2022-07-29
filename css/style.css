@@ -116,3 +116,9 @@ header ul li:last-of-type a{
     text-align: center;
     color: salmon;
 }
+
+.div-about:before{
+    content: "";
+    background-color: red;
+
+}

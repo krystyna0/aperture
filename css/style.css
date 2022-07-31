@@ -4,7 +4,7 @@
 }
 
 header{
-    background-color: green;
+    background-color: #181818;
     padding: 24px 0;
 }
 
@@ -49,11 +49,11 @@ header ul li a{
 }
 
 header ul li{
- margin-right: 42px;
+ margin-right: 32px;
 }
 
 header ul li:nth-child(4){
-    margin-right: 41px;
+    margin-right: 31px;
 }
 
 header ul li:last-of-type{
@@ -114,11 +114,5 @@ header ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     text-align: center;
-    color: salmon;
-}
-
-.div-about:before{
-    content: "";
-    background-color: red;
-
+    color: #C0C0C0;
 }

@@ -173,7 +173,7 @@ header ul li:last-of-type a{
     margin-bottom: 82px;
 }
 
-.clients-container div:last-of-type {
+.clients-container div:last-of-type{
     display: flex;
     max-width: 1076px;
     margin: auto;
@@ -181,3 +181,48 @@ header ul li:last-of-type a{
     align-items: center;
 }
 
+.help-container{
+    padding: 113px 0 108px 0;
+    background-color: #000000;
+}
+
+.help-container div{
+    max-width: 600px;
+    margin: auto;
+}
+
+.help-container h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.help-container h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.help-container a{
+    display: inline-block;
+    padding: 9px 10px 13px 42px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+
+}

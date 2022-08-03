@@ -149,13 +149,35 @@ header ul li:last-of-type a{
 }
 
 .clients-container{
-    margin: 113px 0 140px 0;
+    padding: 113px 0 140px 0;
     background-color: #000000;
 }
 
-.clients-container div:last-of-type{
+.clients-container div h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.clients-container div p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 82px;
+}
+
+.clients-container div:last-of-type {
     display: flex;
+    max-width: 1076px;
     margin: auto;
     justify-content: space-between;
+    align-items: center;
 }
 

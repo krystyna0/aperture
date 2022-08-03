@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.ttf') format('truetype'),
+    url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -40,8 +53,6 @@ header ul li:first-of-type a{
 header ul li a{
     text-decoration: none;
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     color: #FFFFFF;
@@ -49,7 +60,7 @@ header ul li a{
 }
 
 header ul li{
- margin-right: 32px;
+    margin-right: 32px;
 }
 
 header ul li:nth-child(4){
@@ -75,6 +86,7 @@ header ul li:last-of-type a{
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
+    position: relative;
 }
 
 .div-about{
@@ -84,8 +96,6 @@ header ul li:last-of-type a{
 
 .div-about h2{
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -98,8 +108,6 @@ header ul li:last-of-type a{
 
 .div-about h1{
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 54px;
     line-height: 59px;
     text-align: center;
@@ -109,10 +117,45 @@ header ul li:last-of-type a{
 
 .div-about p{
     font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
     color: #C0C0C0;
 }
+.fixed-information li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+
+.fixed-information{
+    position: absolute;
+    bottom: 41px;
+    right: 40px;
+    list-style: none;
+}
+
+.fixed-information li:before{
+    content: "";
+    background-image: url("../images/time.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.clients-container{
+    margin: 113px 0 140px 0;
+    background-color: #000000;
+}
+
+.clients-container div:last-of-type{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+

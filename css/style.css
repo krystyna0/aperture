@@ -170,7 +170,7 @@ header ul li:last-of-type a{
     background-color: #000000;
 }
 
-.clients-container div h2{
+.clients-container h2{
     font: 40px/42px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -178,7 +178,7 @@ header ul li:last-of-type a{
     margin-bottom: 15px;
 }
 
-.clients-container div p{
+.clients-container p{
     font: 24px/30px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -186,7 +186,7 @@ header ul li:last-of-type a{
     margin-bottom: 82px;
 }
 
-.clients-container div:last-of-type{
+.clients-logo{
     display: flex;
     max-width: 1076px;
     margin: auto;

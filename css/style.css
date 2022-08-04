@@ -52,9 +52,7 @@ header ul li:first-of-type a{
 
 header ul li a{
     text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 15px;
-    line-height: 20px;
+    font: 15px/20px 'Poppins';
     color: #FFFFFF;
     display: inline-block;
 }
@@ -95,9 +93,7 @@ header ul li:last-of-type a{
 }
 
 .div-about h2{
-    font-family: 'Poppins';
-    font-size: 14px;
-    line-height: 20px;
+    font: 14px/20px 'Poppins';
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -107,26 +103,20 @@ header ul li:last-of-type a{
 }
 
 .div-about h1{
-    font-family: 'Poppins';
-    font-size: 54px;
-    line-height: 59px;
+    font: 54px/59px 'Poppins';
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 
 .div-about p{
-    font-family: 'Poppins';
-    font-size: 14px;
-    line-height: 20px;
+    font: 14px/20px 'Poppins';
     text-align: center;
     color: #C0C0C0;
 }
 .fixed-information li{
-    font-family: 'Poppins';
+    font: 12px/12px 'Poppins';
     font-style: normal;
-    font-size: 12px;
-    line-height: 12px;
     color: #FFFFFF;
     display: inline-flex;
     margin-left: 16px;
@@ -148,26 +138,49 @@ header ul li:last-of-type a{
     margin-right: 6px;
 }
 
+.fixed-information li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/objectiv.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.fixed-information li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+
+.fixed-information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/geoposition.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+
 .clients-container{
     padding: 113px 0 140px 0;
     background-color: #000000;
 }
 
 .clients-container div h2{
-    font-family: 'Poppins';
+    font: 40px/42px 'Poppins';
     font-style: normal;
-    font-size: 40px;
-    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
 
 .clients-container div p{
-    font-family: 'Poppins';
+    font: 24px/30px 'Poppins';
     font-style: normal;
-    font-size: 24px;
-    line-height: 30px;
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 82px;
@@ -181,7 +194,7 @@ header ul li:last-of-type a{
     align-items: center;
 }
 
-.help-container{
+ /*** .help-container{
     padding: 113px 0 108px 0;
     background-color: #000000;
 }
@@ -192,20 +205,16 @@ header ul li:last-of-type a{
 }
 
 .help-container h2{
-    font-family: 'Poppins';
+    font: 40px/42px 'Poppins';
     font-style: normal;
-    font-size: 40px;
-    line-height: 42px;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
 
 .help-container h3{
-    font-family: 'Poppins';
+    font: 24px/30px 'Poppins';
     font-style: normal;
-    font-size: 24px;
-    line-height: 30px;
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 22px;
@@ -217,12 +226,9 @@ header ul li:last-of-type a{
     background-color: #FFFFFF;
     text-decoration: none;
     border-radius: 14px;
-    font-family: 'Poppins';
+    font: 16px/20px 'Poppins';
     font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
     text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
-
-}
+} */

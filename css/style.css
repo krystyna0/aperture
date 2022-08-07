@@ -442,7 +442,7 @@ header ul li:last-of-type a{
 .help-container{
     background-color: #000000;
     display: flex;
-    height: 414px;
+    padding: 113px 0 108px 0;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -468,7 +468,7 @@ header ul li:last-of-type a{
     margin-bottom: 22px;
 }
 
-.AAA{
+.help-btn{
     display: inline-block;
     padding: 9px 10px 13px 42px;
     background-color: #FFFFFF;

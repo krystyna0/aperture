@@ -439,17 +439,20 @@ header ul li:last-of-type a{
     margin-right: 5px;
 }
 
- /*** .help-container{
-    padding: 113px 0 108px 0;
+.help-container{
     background-color: #000000;
+    display: flex;
+    height: 414px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.help-container div{
+.help{
     max-width: 600px;
-    margin: auto;
 }
 
-.help-container h2{
+.help h2{
     font: 40px/42px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -457,7 +460,7 @@ header ul li:last-of-type a{
     margin-bottom: 15px;
 }
 
-.help-container h3{
+.help h3{
     font: 24px/30px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -465,7 +468,7 @@ header ul li:last-of-type a{
     margin-bottom: 22px;
 }
 
-.help-container a{
+.AAA{
     display: inline-block;
     padding: 9px 10px 13px 42px;
     background-color: #FFFFFF;
@@ -476,5 +479,6 @@ header ul li:last-of-type a{
     text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
-} */
+}
+
 

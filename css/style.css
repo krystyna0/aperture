@@ -79,17 +79,18 @@ header ul li:last-of-type a{
 
 .about{
     background-image: url("../images/background-image.jpg");
-    padding-top: 366px;
-    padding-bottom: 71px;
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
 }
 
 .div-about{
     max-width: 580px;
-    margin: auto;
 }
 
 .div-about h2{
@@ -114,6 +115,7 @@ header ul li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
+
 .fixed-information li{
     font: 12px/12px 'Poppins';
     font-style: normal;
@@ -157,6 +159,88 @@ header ul li:last-of-type a{
 }
 
 .fixed-information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/geoposition.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+
+.about-fuji{
+    background-image: url("../images/background_fuji.jpg");
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.fuji-present{
+    max-width: 300px;
+    margin-right: 62px;
+}
+
+.fuji-present h3{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+.fuji-present p{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    color: #C0C0C0;
+}
+
+.fixed-information-fuji{
+    position: absolute;
+    bottom: 41px;
+    right: 40px;
+    list-style: none;
+}
+
+.fixed-information-fuji li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+
+.fixed-information-fuji li:before{
+    content: "";
+    background-image: url("../images/time.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.fixed-information-fuji li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/objectiv.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.fixed-information-fuji li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+
+.fixed-information-fuji li:last-of-type:before{
     content: "";
     background-image: url("../images/geoposition.svg");
     width: 10px;
@@ -232,3 +316,4 @@ header ul li:last-of-type a{
     letter-spacing: 0.4px;
     color: #000000;
 } */
+

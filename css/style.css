@@ -189,7 +189,6 @@ header ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
-
 }
 
 .fuji-present p{
@@ -241,6 +240,87 @@ header ul li:last-of-type a{
 }
 
 .fixed-information-fuji li:last-of-type:before{
+    content: "";
+    background-image: url("../images/geoposition.svg");
+    width: 10px;
+    height: 16px;
+    display: block;
+    margin-right: 5px;
+}
+
+.about-costa-rica{
+    background-image: url("../images/background_costa_rica.jpg");
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.costa-rica-present{
+    max-width: 300px;
+    margin-right: 60px;
+}
+
+.costa-rica-present h3{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.costa-rica-present p{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    color: #C0C0C0;
+}
+
+.fixed-information-costa-rica{
+    list-style: none;
+    position: absolute;
+    bottom: 41px;
+    right: 40px;
+}
+
+.fixed-information-costa-rica li{
+    font: 12px/12px 'Poppins';
+    font-style: normal;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+
+.fixed-information-costa-rica li:before{
+    content: "";
+    background-image: url("../images/time.svg");
+    width: 15px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.fixed-information-costa-rica li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/objectiv.svg");
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 6px;
+}
+
+.fixed-information-costa-rica li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/iso.svg");
+    width: 32px;
+    height: 16px;
+    display: block;
+    margin-right: 7px;
+}
+
+.fixed-information-costa-rica li:last-of-type:before{
     content: "";
     background-image: url("../images/geoposition.svg");
     width: 10px;

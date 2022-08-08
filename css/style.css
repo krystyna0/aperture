@@ -468,7 +468,7 @@ header ul li:last-of-type a{
     margin-bottom: 22px;
 }
 
-.item-help-container a{
+.help-container a{
     padding: 5px 10px 5px 4px;
     background-color: #FFFFFF;
     border-radius: 14px;
@@ -482,7 +482,7 @@ header ul li:last-of-type a{
     align-items: center;
 }
 
-.item-help-container a:before{
+.help-container a:before{
     content: "";
     width: 32px;
     height: 32px;

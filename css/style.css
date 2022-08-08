@@ -474,9 +474,10 @@ header ul li:last-of-type a{
     border-radius: 14px;
     display: flex;
     align-items: center;
+    transition: 0.2s;
 }
 
-.text-btn{
+.btn-help a{
     font: 16px/20px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -484,6 +485,10 @@ header ul li:last-of-type a{
     color: #000000;
     text-decoration: none;
     margin-left: 6px;
+}
+
+.btn-help:hover{
+    transform: scale(1.1);
 }
 
 

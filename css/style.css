@@ -468,17 +468,22 @@ header ul li:last-of-type a{
     margin-bottom: 22px;
 }
 
-.help-btn{
-    display: inline-block;
-    padding: 9px 10px 13px 42px;
+.btn-help{
+    padding: 5px 10px 5px 4px;
     background-color: #FFFFFF;
-    text-decoration: none;
     border-radius: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.text-btn{
     font: 16px/20px 'Poppins';
     font-style: normal;
     text-align: center;
     letter-spacing: 0.4px;
     color: #000000;
+    text-decoration: none;
+    margin-left: 6px;
 }
 
 

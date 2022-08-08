@@ -170,7 +170,7 @@ header ul li:last-of-type a{
 .about-fuji{
     background-image: url("../images/background_fuji.jpg");
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -251,7 +251,7 @@ header ul li:last-of-type a{
 .about-costa-rica{
     background-image: url("../images/background_costa_rica.jpg");
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -361,7 +361,7 @@ header ul li:last-of-type a{
 .about-nepal{
     background-image: url("../images/background_nepal.jpg");
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     box-sizing: border-box;
     position: relative;
     display: flex;
@@ -486,7 +486,8 @@ header ul li:last-of-type a{
     content: "";
     width: 32px;
     height: 32px;
-    background-image: url("../images/btn.svg");
+    background-color: #000000;
     display: block;
     margin-right: 6px;
+    border-radius: 13px;
 }

@@ -489,6 +489,7 @@ header ul li:last-of-type a{
 
 .btn-help:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 

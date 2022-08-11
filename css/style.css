@@ -77,7 +77,7 @@ header ul li:last-of-type a{
     color: #000000;
 }
 
-.about{
+.main{
     background-image: url("../images/background-image.jpg");
     background-size: cover;
     height: 100vh;
@@ -89,11 +89,11 @@ header ul li:last-of-type a{
     padding-bottom: 71px;
 }
 
-.div-about{
+.div-main{
     max-width: 580px;
 }
 
-.div-about h2{
+.div-main h2{
     font: 14px/20px 'Poppins';
     text-align: center;
     letter-spacing: 2px;
@@ -103,14 +103,14 @@ header ul li:last-of-type a{
 
 }
 
-.div-about h1{
+.div-main h1{
     font: 54px/59px 'Poppins';
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 18px;
 }
 
-.div-about p{
+.div-main p{
     font: 14px/20px 'Poppins';
     text-align: center;
     color: #C0C0C0;
@@ -165,6 +165,104 @@ header ul li:last-of-type a{
     height: 16px;
     display: block;
     margin-right: 5px;
+}
+
+.what-we-do .container{
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what-we-do{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+.what-we-do h2{
+    font: 40px/42px 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.what-we-do p{
+    font: 23px/30px 'Poppins';
+    font-style: normal;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.what-we-do .item{
+    max-width: 576px;
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.what-we-do .item img{
+    display: block;
+    width: 100%;
+}
+
+.what-we-do .item .description{
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.what-we-do .item .description h4{
+    font: 14px/20px 'Poppins';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.what-we-do .item .description p{
+    font:14px/20px 'Poppins';
+    font-style: normal;
+    color: #C0C0C0;
+    text-align: left;
+    margin-bottom: 17px;
+}
+
+.what-we-do .item .description a{
+    padding: 5px 6px 5px 4px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    font: 15px/20px 'Poppins';
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    max-width: 143px;
+}
+
+.what-we-do .item .description a:before{
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    display: block;
+    margin-right: 6px;
+    border-radius: 13px;
+
 }
 
 .about-fuji{

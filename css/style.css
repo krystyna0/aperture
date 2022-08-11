@@ -561,10 +561,12 @@ form{
     border-radius: 12px;
     width: 458px;
     height: 52px;
+    display: flex;
+    align-items: center;
 }
 
 form input{
-    width: 458px;
+    width: 389px;
     height: 52px;
     outline: none;
     border: none;

@@ -658,8 +658,8 @@ form{
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
-    width: 458px;
-    height: 52px;
+    max-width: 458px;
+    max-height: 52px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -718,6 +718,7 @@ form button:hover{
     font-style: normal;
     color: #C0C0C0;
     display: inline-block;
+    text-decoration: none;
 }
 
 .social-medias ul{

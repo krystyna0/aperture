@@ -313,6 +313,9 @@
     .div-main {
         max-width: 350px;
     }
+    form {
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -364,14 +367,20 @@
     .clients-logo {
         max-width: 330px;
     }
+    .what-we-do .item .description {
+        padding: 18px;
+    }
 }
 
 @media screen and (max-width: 320px) {
+    .what-we-do .item .description {
+        padding: 16px;
+    }
     .main {
         height: 70vh;
     }
     .fixed-information {
-        bottom: 0px;
+        bottom: 0;
         right: 10px;
     }
     .fixed-information li {

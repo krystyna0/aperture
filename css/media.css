@@ -1,12 +1,7 @@
-
-
-/*АДАПТИРОВАТЬ ПОЗИШНЫ В 1 СЕКЦИИ*/
-
-
 @media screen and (max-width: 1024px) {
-    /*.fixed-information{
-        bottom: 0;
-    }*/
+    .fixed-information {
+        bottom: 20px;
+    }
     .what-we-do .container{
         max-width: 994px;
     }
@@ -61,6 +56,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .fixed-information {
+        bottom: 5px;
+    }
+    .main {
+        height: 85vh;
+    }
     header ul li:first-of-type a {
         font-size: 11px;
     }
@@ -114,6 +115,9 @@
     }
     .social-medias a {
         font: 10px/20px 'Poppins';
+    }
+    form {
+        width: 358px;
     }
 }
 
@@ -285,7 +289,21 @@
     .help h2 {
         font: 37px/42px 'Poppins';
     }
-
+    .fixed-information-fuji {
+        bottom: 25px;
+        right: 30px;
+    }
+    .fixed-information-costa-rica {
+        bottom: 25px;
+        right: 25px;
+    }
+    .past-clients {
+        padding: 80px 0 60px 0;
+    }
+    .fixed-information-nepal {
+        bottom: 25px;
+        right: 25px;
+    }
 }
 
 @media screen and (max-width: 391px) {
@@ -298,13 +316,16 @@
 }
 
 @media screen and (max-width: 376px) {
+    .what-we-do p {
+        font: 19px/30px 'Poppins';
+    }
     .what-we-do .item .description a:before {
         width: 25px;
         height: 25px;
         border-radius: 10px;
     }
     .what-we-do .item .description a{
-        padding: 4px 0px 4px 3px;
+        padding: 4px 0 4px 3px;
         border-radius: 9px;
     }
     .clients-logo {
@@ -337,7 +358,6 @@
     .help h3 {
         font: 23px/30px 'Poppins';
     }
-
 }
 
 @media screen and (max-width: 360px) {
@@ -347,13 +367,223 @@
 }
 
 @media screen and (max-width: 320px) {
+    .main {
+        height: 70vh;
+    }
+    .fixed-information {
+        bottom: 0px;
+        right: 10px;
+    }
+    .fixed-information li {
+        font: 10px/12px 'Poppins';
+    }
     .clients-logo {
         max-width: 290px;
+    }
+    .div-main {
+        max-width: 290px;
+    }
+    .div-main h1 {
+        font: 33px/59px 'Poppins';
+        margin-bottom: 12px;
+    }
+    .div-main p {
+        font: 10px/20px 'Poppins';
+    }
+    .div-main h2 {
+        font: 11px/20px 'Poppins';
+    }
+    .what-we-do h2 {
+        font: 35px/42px 'Poppins';
+    }
+    .what-we-do .item .description p {
+        font: 10px/20px 'Poppins';
+    }
+    .what-we-do .item .description h4 {
+        font: 11px/20px 'Poppins';
+        margin-bottom: 5px;
+    }
+    .past-clients p {
+        font: 19px/30px 'Poppins';
+    }
+    .help h2 {
+        font: 34px/42px 'Poppins';
+    }
+    .help h3 {
+        font: 22px/30px 'Poppins';
+    }
+    .fixed-information-fuji li {
+        font: 10px/12px 'Poppins';
+    }
+    .fixed-information-fuji {
+        right: 20px;
+    }
+    .fixed-information-nepal li{
+        font: 10px/12px 'Poppins';
+    }
+    .fixed-information-nepal{
+        right: 20px;
+    }
+    .fixed-information-costa-rica li {
+        font: 10px/12px 'Poppins';
+    }
+    .fixed-information-costa-rica {
+        right: 12px;
     }
 }
 
 @media screen and (max-width: 280px) {
+    .main {
+        height: 70vh;
+    }
     .clients-logo {
         max-width: 250px;
+    }
+    .div-main {
+        max-width: 250px;
+    }
+    .div-main h1 {
+        margin-bottom: 11px;
+        font: 30px/59px 'Poppins';
+    }
+    .what-we-do h2 {
+        font: 33px/42px 'Poppins';
+        margin-bottom: 5px;
+    }
+    .what-we-do p{
+        font: 19px/30px 'Poppins';
+        margin-bottom: 25px;
+    }
+    .what-we-do {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .what-we-do .item .description {
+        padding: 10px;
+    }
+    .what-we-do .item .description p {
+        margin-bottom: 7px;
+    }
+    .help h2 {
+        font: 31px/42px 'Poppins';
+    }
+    .help h3 {
+        font: 21px/30px 'Poppins';
+    }
+    .help-container a:before {
+        width: 25px;
+        height: 25px;
+    }
+    .help-container a:before {
+        border-radius: 10px;
+    }
+    .help-container a {
+        border-radius: 10px;
+    }
+    .footer-container p {
+        max-width: 200px;
+    }
+    .connect h4 {
+        font: 12px/20px 'Poppins';
+    }
+    .connect p {
+        font: 11px/20px 'Poppins';
+    }
+    .container-ul ul li {
+        margin-bottom: 5px;
+    }
+    .container-ul li a {
+        font: 9px/20px 'Poppins';
+    }
+    .container-ul ul li:first-of-type {
+        font: 11px/20px 'Poppins';
+    }
+    .fixed-information li {
+        font: 8px/12px 'Poppins';
+    }
+    .fixed-information {
+        bottom: 10px;
+        right: 9px;
+    }
+    .about-fuji {
+        min-height: 340px;
+    }
+    .fuji-present h3 {
+        font: 12px/20px 'Poppins';
+    }
+    .fuji-present p {
+        font: 11px/20px 'Poppins';
+    }
+    .fuji-present {
+        margin-right: 20px;
+    }
+    .fixed-information-fuji {
+        bottom: 15px;
+        right: 10px;
+    }
+    .fixed-information-fuji li {
+        font: 8px/12px 'Poppins';
+    }
+    .about-costa-rica {
+        min-height: 340px;
+    }
+    .costa-rica-present h3 {
+        font: 12px/20px 'Poppins';
+    }
+    .costa-rica-present p {
+        font: 11px/20px 'Poppins';
+    }
+    .costa-rica-present{
+        margin-right: 20px;
+    }
+    .fixed-information-costa-rica{
+        bottom: 15px;
+        right: 6px;
+    }
+    .fixed-information-costa-rica li{
+        font: 8px/12px 'Poppins';
+    }
+    .past-clients h2 {
+        font: 34px/42px 'Poppins';
+    }
+    .past-clients h2 {
+        margin-bottom: 8px;
+    }
+    .past-clients p {
+        font: 18px/30px 'Poppins';
+        margin-bottom: 20px;
+    }
+    .past-clients {
+        padding: 60px 0 40px 0;
+    }
+    .about-nepal {
+        min-height: 340px;
+    }
+    .nepal-present h3{
+        font: 12px/20px 'Poppins';
+    }
+    .nepal-present p{
+        font: 11px/20px 'Poppins';
+    }
+    .nepal-present{
+        margin-right: 20px;
+    }
+    .fixed-information-nepal{
+        bottom: 15px;
+        right: 10px;
+    }
+    .fixed-information-nepal li{
+        font: 8px/12px 'Poppins';
+    }
+    .help-container {
+        padding: 35px 0 20px 0;
+    }
+    .help h2 {
+        font: 29px/42px 'Poppins';
+        margin-bottom: 5px;
+    }
+    .help h3 {
+        font: 20px/30px 'Poppins';
+        margin-bottom: 15px;
     }
 }

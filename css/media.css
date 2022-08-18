@@ -17,8 +17,8 @@
     }
 }
 
-
 @media screen and (max-width: 992px) {
+    /*размер текста???*/
     .what-we-do .container{
         max-width: 964px;
     }
@@ -33,7 +33,14 @@
 }
 
 @media screen and (max-width: 820px) {
-    /*скрыть меню*/
+/*переделать размер текста*/
+    .what-we-do .container{
+        max-width: 790px;
+    }
+
+    .clients-logo {
+        max-width: 790px;
+    }
 }
 
 @media screen and (max-width: 768px) {

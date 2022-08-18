@@ -427,12 +427,12 @@ header ul li:last-of-type a{
     margin-right: 5px;
 }
 
-.clients-container{
+.past-clients{
     padding: 113px 0 140px 0;
     background-color: #000000;
 }
 
-.clients-container h2{
+.past-clients h2{
     font: 40px/42px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -440,7 +440,7 @@ header ul li:last-of-type a{
     margin-bottom: 15px;
 }
 
-.clients-container p{
+.past-clients p{
     font: 24px/30px 'Poppins';
     font-style: normal;
     text-align: center;
@@ -746,4 +746,49 @@ form button:hover{
 .social-medias ul li:last-of-type{
     width: 11px;
     height: 24px;
+}
+
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: white;
+    font-size: 30px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.owl-nav .owl-next:after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: white;
+    font-size: 30px;
+}
+
+.past-clients a{
+    transition: 0.3ms;
+    display: inline-block;
+    max-width: 128px;
+}
+
+.past-clients a:hover{
+    transform: scale(1.1);
 }

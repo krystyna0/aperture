@@ -4,9 +4,9 @@
 
 
 @media screen and (max-width: 1024px) {
-    .fixed-information{
+    /*.fixed-information{
         bottom: 0;
-    }
+    }*/
     .what-we-do .container{
         max-width: 994px;
     }
@@ -145,12 +145,6 @@
     .what-we-do p {
         font: 22px/30px 'Poppins';
     }
-    .what-we-do .item {
-        max-width: 100%;
-    }
-    .what-we-do .container{
-        max-width: 398px;
-    }
     .what-we-do .item .description a {
         padding: 4px 5px 4px 3px;
         font: 13px/20px 'Poppins';
@@ -255,28 +249,111 @@
     .social-medias ul {
         margin-bottom: 15px;
     }
+    .d-flex {
+        justify-content: center;
+    }
+    .what-we-do .item {
+        max-width: 85%;
+    }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
+    .d-flex {
+        justify-content: center;
+    }
+    .what-we-do .item {
+        max-width: 85%;
+    }
+    .what-we-do h2 {
+        font: 37px/42px 'Poppins';
+    }
+    .what-we-do p {
+        font: 21px/30px 'Poppins';
+    }
+    .what-we-do .item .description a {
+        padding: 4px 3px 4px 3px;
+    }
+    .past-clients h2 {
+        font: 36px/42px 'Poppins';
+    }
+    .past-clients p {
+        font: 20px/30px 'Poppins';
+    }
+    .clients-logo {
+        max-width: 385px;
+    }
+    .help h2 {
+        font: 37px/42px 'Poppins';
+    }
 
 }
 
-@media screen and (max-width: 390px) {
-
+@media screen and (max-width: 391px) {
+    .clients-logo {
+        max-width: 360px;
+    }
+    .div-main {
+        max-width: 350px;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
+    .what-we-do .item .description a:before {
+        width: 25px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    .what-we-do .item .description a{
+        padding: 4px 0px 4px 3px;
+        border-radius: 9px;
+    }
+    .clients-logo {
+        max-width: 345px;
+    }
+    .nepal-present {
+        max-width: 160px;
+        margin-right: 40px;
+    }
+    .about-nepal {
+        min-height: 400px;
+    }
+    .about-costa-rica {
+        min-height: 400px
+    }
+    .costa-rica-present {
+        max-width: 160px;
+        margin-right: 40px;
+    }
+    .about-fuji {
+        min-height: 400px;
+    }
+    .fuji-present{
+        max-width: 160px;
+        margin-right: 40px;
+    }
+    .help h2 {
+        font: 36px/42px 'Poppins';
+    }
+    .help h3 {
+        font: 23px/30px 'Poppins';
+    }
 
 }
 
 @media screen and (max-width: 360px) {
-
+    .clients-logo {
+        max-width: 330px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-
+    .clients-logo {
+        max-width: 290px;
+    }
 }
 
 @media screen and (max-width: 280px) {
-
+    .clients-logo {
+        max-width: 250px;
+    }
 }

@@ -793,3 +793,48 @@ form button:hover{
 .past-clients a:hover{
     transform: scale(1.1);
 }
+
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+    background-color: black;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background-color: black;
+    border: none;
+}
+
+.ui-widget-content {
+    border: none;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    background-color: black;
+    border: none;
+}
+
+.ui-icon {
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin-top: 0;
+    overflow: inherit;
+    width: 50px;
+    height:50px;
+}
+
+.ui-icon:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f103";
+    color: white;
+    font-size: 50px;
+}
+
+.ui-state-active .ui-icon, .ui-button:active .ui-icon .ui-state-hover {
+    background-image: none;
+}
+
+.ui-state-hover .ui-icon{
+    background-image: none;
+}

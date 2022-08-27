@@ -316,6 +316,9 @@
     form {
         width: 300px;
     }
+    .nav .menu-btn {
+        top: -45px;
+    }
 }
 
 @media screen and (max-width: 376px) {

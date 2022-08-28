@@ -982,7 +982,7 @@ nav .menu-btn {
     align-items: center;
     --icon-width: 25px;
     position: absolute;
-    top: 5%;
+    top: -45px;
     left: -15%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);

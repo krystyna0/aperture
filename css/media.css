@@ -268,7 +268,7 @@
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 414px) {
     .d-flex {
         justify-content: center;
     }
@@ -312,7 +312,11 @@
         right: 25px;
     }
     .nav-open {
-        width: 415px;
+        width: 414px;
+    }
+    div.menu-btn.close {
+        left: 5%;
+        top: -2px;
     }
 }
 

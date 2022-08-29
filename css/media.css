@@ -131,6 +131,7 @@
 /*    header {
         padding: 20px 0;
     }*/
+
     .main {
         height: 80vh;
     }
@@ -259,12 +260,12 @@
     .what-we-do .item {
         max-width: 85%;
     }
-    .nav-open {
-        width: 428px;
+    nav{
+        width: 100%;
     }
+
     div.menu-btn.close{
-        left: 0%;
-        top: -2px;
+        left: 85%;
     }
 }
 
@@ -312,11 +313,7 @@
         right: 25px;
     }
     .nav-open {
-        width: 414px;
-    }
-    div.menu-btn.close {
-        left: 5%;
-        top: -2px;
+        width: 100%;
     }
 }
 
@@ -331,10 +328,7 @@
         width: 300px;
     }
     .nav-open {
-        width: 390px;
-    }
-    div.menu-btn.close {
-        left: 4%;
+        width: 100%;
     }
 }
 
@@ -382,7 +376,7 @@
         font: 23px/30px 'Poppins';
     }
     .nav-open {
-        width: 375px;
+        width: 100%;
     }
 }
 
@@ -394,7 +388,7 @@
         padding: 18px;
     }
     .nav-open {
-        width: 360px;
+        width: 100%;
     }
 }
 
@@ -466,11 +460,10 @@
         right: 12px;
     }
     .nav-open {
-        width: 320px;
+        width: 100%;
     }
     div.menu-btn.close{
-        left: 0%;
-        top: -2px;
+        left: 85%;
     }
 }
 
@@ -629,6 +622,30 @@
         margin-bottom: 15px;
     }
     .nav-open {
-        width: 280px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    nav .menu-btn {
+        display: flex;
+        top: 15px;
+    }
+    nav {
+        transform: translateX(100%);
+        background: rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(20px);
+        right: 0px;
+        top: 0;
+        height: 100%;
+        width: 400px;
+    }
+    nav .nav-links li {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    nav .nav-links {
+        display: block;
     }
 }

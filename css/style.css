@@ -21,13 +21,13 @@ header{
     padding: 24px 0;
 }
 
-/*.header-container{
+.header-container{
     max-width: 1200px;
     margin: auto;
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
     align-items: center;
-}*/
+}
 
 .logo-header{
     margin-left: 32px;
@@ -55,6 +55,7 @@ header ul li a{
     font: 15px/20px 'Poppins';
     color: #FFFFFF;
     display: inline-block;
+    white-space: nowrap;
 }
 
 header ul li{
@@ -867,25 +868,26 @@ body {
 nav {
     --transition-time: 500ms;
     position: absolute;
-    right: 0;
-    width: 400px;
-    height: 100%;
+    right: 260px;
+    top: 10px;
+    width: 700px;
+    height: 7%;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, 0.45);
-    backdrop-filter: blur(20px);
-    transform: translateX(100%);
+    background: transparent;
+    transform: translateX(0%);
     transition: all 800ms cubic-bezier(0.8, 0, 0.33, 1);
     z-index: 4; }
-nav a {
+/*nav a {
     text-transform: uppercase;
     font-size: 1.4rem;
     font-weight: 900;
     letter-spacing: 3px;
     text-decoration: none;
     user-select: none;
-    color: #fff; }
+    color: #fff; }*/
 nav .nav-links {
+    display: flex;
     --link-height: 60px;
     position: relative;
     width: 100%; }
@@ -897,8 +899,8 @@ nav .nav-links li {
     width: 100%;
     height: var(--link-height);
     list-style: none;
-    opacity: 0;
-    transform: translateX(-50%);
+    opacity: 1;
+    transform: translateX(0%);
     transition: all var(--transition-time) cubic-bezier(0.8, 0, 0.33, 0.9);
     transition-delay: calc(30ms + var(--delay));
     cursor: pointer;
@@ -977,7 +979,7 @@ nav .sub-menu-btn .line__2 {
     transform-origin: left;
     transform: rotate(35deg) translate(-1px, -8px); }
 nav .menu-btn {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     --icon-width: 25px;
@@ -1027,7 +1029,9 @@ nav.sub-menu-open .nav-links li {
     transform: translateY(-10%); }
 nav.sub-menu-open .nav-links .hover-el {
     opacity: 0; }
-
+nav .nav-links .hover-el{
+    display: none;
+}
 
 
 

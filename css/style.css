@@ -24,7 +24,7 @@ header{
 .header-container{
     max-width: 1200px;
     margin: auto;
-    /*display: flex;*/
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -867,7 +867,7 @@ body {
 
 nav {
     --transition-time: 500ms;
-    position: absolute;
+    /*position: absolute;*/
     right: 200px;
     top: 10px;
     width: 700px;

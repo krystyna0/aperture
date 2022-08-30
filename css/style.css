@@ -867,7 +867,7 @@ body {
 
 nav {
     --transition-time: 500ms;
-    /*position: absolute;*/
+    position: absolute;
     right: 200px;
     top: 10px;
     width: 700px;

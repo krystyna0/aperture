@@ -409,17 +409,17 @@ header ul li:last-of-type a {
 }
 @media screen and (max-width: 768px) {
   .what-we-do .container .d-flex .item .description p {
-    font: 11px/20px "Poppins";
+    font: 12px/20px "Poppins";
   }
 }
 @media screen and (max-width: 428px) {
   .what-we-do .container .d-flex .item .description p {
-    font: 22px/30px "Poppins";
+    font: 12px/30px "Poppins";
   }
 }
 @media screen and (max-width: 376px) {
   .what-we-do .container .d-flex .item .description p {
-    font: 19px/30px "Poppins";
+    font: 12px/30px "Poppins";
   }
 }
 @media screen and (max-width: 320px) {
@@ -429,12 +429,7 @@ header ul li:last-of-type a {
 }
 @media screen and (max-width: 280px) {
   .what-we-do .container .d-flex .item .description p {
-    font: 19px/30px "Poppins";
-    margin-bottom: 25px;
-  }
-}
-@media screen and (max-width: 280px) {
-  .what-we-do .container .d-flex .item .description p {
+    font: 10px/20px "Poppins";
     margin-bottom: 7px;
   }
 }
@@ -1616,7 +1611,6 @@ nav {
     transform: translateX(100%);
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
-    position: fixed;
     right: 0;
     top: 0;
     height: 100%;

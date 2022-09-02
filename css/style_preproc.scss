@@ -332,22 +332,19 @@ header ul li:last-of-type a{
               font: 12px/20px $main_font;
             }
             @include max-screen(768px){
-              font: 11px/20px $main_font;
+              font: 12px/20px $main_font;
             }
             @include max-screen(428px){
-              font: 22px/30px $main_font;
+              font: 12px/30px $main_font;
             }
             @include max-screen(376px){
-              font: 19px/30px $main_font;
+              font: 12px/30px $main_font;
             }
             @include max-screen(320px){
               font: 10px/20px $main_font;
             }
             @include max-screen(280px){
-              font: 19px/30px $main_font;
-              margin-bottom: 25px;
-            }
-            @include max-screen(280px){
+              font: 10px/20px $main_font;
               margin-bottom: 7px;
             }
           }
@@ -1353,7 +1350,6 @@ nav {
     transform: translateX(100%);
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
-    position: fixed;
     right: 0;
     top: 0;
     height: 100%;

@@ -1353,6 +1353,7 @@ nav {
     transform: translateX(100%);
     background: rgba(0, 0, 0, 0.45);
     backdrop-filter: blur(20px);
+    position: fixed;
     right: 0;
     top: 0;
     height: 100%;
